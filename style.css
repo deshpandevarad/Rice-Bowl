@@ -1,0 +1,54 @@
+@font-face{
+    font-family: Myfont;
+    src: url(./DancingScript-VariableFont_wght.ttf);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+section{
+    background-color: #daf0ff;
+}
+.section1{
+    background-color: rgb(111, 111, 239);
+}
+.section1 .part1{
+    display: flex;
+    justify-content: center;
+}
+.section1 .part2 {
+    
+    display: flex;
+    justify-content: center;
+}
+.section1 .part2 p{
+    text-align: justify;
+    color: white;
+}
+.section1 .part1 h2{
+    color: white;
+}
+.section2{
+    background-color:  rgb(111, 111, 239);
+}
+.section2 .part3{
+    color: white;
+}
+.form{
+    background: #ffffff;
+    width: 600px;
+    height: 55px;
+    display: flex;
+}
+  .form .input{
+    flex: 1;
+    border: none;
+    outline: none;
+  }
+  .form .button{
+    background: white;
+    padding: 10px 50px;
+    border: none;
+    outline: none;
+  }
